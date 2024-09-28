@@ -20,8 +20,10 @@
       <div>
         <nav class="flex gap-12">
           <a class="text-[#d4c8ed] text-lg font-semibold">Início</a>
-          <a class="text-[#573B95] text-lg font-semibold transition duration-500 hover:text-[#d4c8ed]">Gêneros</a>
-          <a class="text-[#573B95] text-lg font-semibold transition duration-500 hover:text-[#d4c8ed]">Playlists</a>
+          <a href="genders.html"
+            class="text-[#573B95] text-lg font-semibold transition duration-500 hover:text-[#d4c8ed]">Gêneros</a>
+          <a href="playlists.html"
+            class="text-[#573B95] text-lg font-semibold transition duration-500 hover:text-[#d4c8ed]">Playlists</a>
           <a href="events.html"
             class="text-[#573B95] text-lg font-semibold transition duration-500 hover:text-[#d4c8ed]">Eventos</a>
         </nav>
@@ -32,7 +34,7 @@
   </header>
 
   <main>
-    <div class="bg-[url('./assets/bannermusica.png')] bg-cover bg-center pt-44 pb-44 w-full h-[32.8125rem]">
+    <div class="bg-[url('./assets/bannermusica.svg')] bg-cover bg-center pt-44 pb-44 w-full h-[32.8125rem]">
       <h1 class="text-7xl text-center font-bold leading-[4.5rem] tracking-tight gradiente">Dia Internacional <br>da
         Música</h1>
     </div>
@@ -93,9 +95,9 @@
             fascinante dos gêneros musicais e ampliar seus horizontes sonoros.</p>
 
           <div class="mt-[5.5rem] flex justify-end">
-            <button
-              class="w-[19.6875rem] h-[4.375rem] rounded-[1.125rem] bg-[#5d3f9e] transition duration-500 hover:bg-[#462f77]"><a
-                class="text-white text-3xl font-semibold">Conferir Gêneros</a></button>
+            <a href="genders.html"><button
+                class="w-[19.6875rem] h-[4.375rem] rounded-[1.125rem] bg-[#5d3f9e] transition duration-500 hover:bg-[#462f77]"><a
+                  class="text-white text-3xl font-semibold">Conferir Gêneros</a></button></a>
           </div>
         </div>
       </div>
@@ -118,9 +120,9 @@
             playlists e encontrar a trilha sonora perfeita para o seu dia.</p>
 
           <div class="mt-[2.06rem]">
-            <button
-              class="w-[19.6875rem] h-[4.375rem] rounded-[1.125rem] bg-[#5d3f9e] transition duration-500 hover:bg-[#462f77]"><a
-                class="text-white text-3xl font-semibold">Conferir Playlists</a></button>
+            <a href="playlists.html"><button
+                class="w-[19.6875rem] h-[4.375rem] rounded-[1.125rem] bg-[#5d3f9e] transition duration-500 hover:bg-[#462f77]"><a
+                  class="text-white text-3xl font-semibold">Conferir Playlists</a></button></a>
           </div>
         </div>
 
@@ -149,9 +151,9 @@
             para ver a programação completa e planejar sua participação nos eventos do Dia Internacional da Música.</p>
 
           <div class="mt-8">
-            <button
-              class="w-[19.6875rem] h-[4.375rem] rounded-[1.125rem] bg-[#5d3f9e] transition duration-500 hover:bg-[#462f77]"><a
-                class="text-white text-3xl font-semibold">Conferir Eventos</a></button>
+            <a href="events.html"><button
+                class="w-[19.6875rem] h-[4.375rem] rounded-[1.125rem] bg-[#5d3f9e] transition duration-500 hover:bg-[#462f77]"><a
+                  class="text-white text-3xl font-semibold">Conferir Eventos</a></button></a>
           </div>
         </div>
       </div>
@@ -159,6 +161,36 @@
     </div>
 
   </main>
+
+  <footer class="bg-[#0E0E0E] border-t border-[#333]  mt-12 py-14">
+
+    <div class="flex justify-between items-center mx-40">
+
+      <div class="flex gap-1 justify-center items-center"><img src="assets/whitelogo.svg" alt="Logo do Site"
+          class="w-6 h-6">
+        <h1 class="text-white text-lg font-semibold">EcosMusicais</h1>
+      </div>
+
+      <div>
+        <p class="text-white text-sm font">© 2024 EcosMusicais. Desenvolvido por Marcos Alexandre.</p>
+      </div>
+
+      <div>
+        <ul class="flex gap-7">
+          <a href="https://www.instagram.com/marcxs.sz/" target="_blank">
+            <li class="border rounded-[1.21875rem] py-2 px-2"><img class="w-4 h-4" src="assets/iglogo.svg"
+                alt="Logo do Instagram">
+            </li>
+          </a>
+          <a href="https://bsky.app/profile/marcxszs.bsky.social" target="_blank">
+            <li class="border rounded-[1.21875rem] py-2 px-2"><img class="w-4 h-4" src="assets/bskylogo.svg"
+                alt="Logo do Bluesky">
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
